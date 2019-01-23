@@ -41,18 +41,20 @@
     <ApplicationManifest>app.manifest</ApplicationManifest>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Animation.cs" />
-    <Compile Include="AnimationBook.cs" />
-    <Compile Include="AnimationReader.cs" />
+    <Compile Include="Animation Classes\Animation.cs" />
+    <Compile Include="Animation Classes\AnimationBook.cs" />
+    <Compile Include="Animation Classes\AnimationReader.cs" />
+    <Compile Include="DialogueHandler.cs" />
+    <Compile Include="DialogueItem.cs" />
     <Compile Include="MainGame.cs" />
-    <Compile Include="MainMenuHandler.cs" />
-    <Compile Include="MainMenuItem.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="MainMenu Classes\MainMenuHandler.cs" />
+    <Compile Include="MainMenu Classes\MainMenuItem.cs" />
+    <Compile Include="Static Classes\Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Splashscreen.cs" />
-    <Compile Include="SplashscreenAsset.cs" />
-    <Compile Include="SplashscreenHandler.cs" />
-    <Compile Include="Toolbox.cs" />
+    <Compile Include="Splashscreen Classes\Splashscreen.cs" />
+    <Compile Include="Splashscreen Classes\SplashscreenAsset.cs" />
+    <Compile Include="Splashscreen Classes\SplashscreenHandler.cs" />
+    <Compile Include="Static Classes\Toolbox.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="MonoGame.Extended, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
